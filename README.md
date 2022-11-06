@@ -1,6 +1,6 @@
 
 <p align="center" >
-  <img width="900" heigth="900" src="![fWeb.png]("https://github.com/TheHakoDrako/thehakodrako.github.io/blob/main/images/fWeb.png?raw=true")">
+  <img width="900" heigth="900" src="https://raw.githubusercontent.com/TheHakoDrako/thehakodrako.github.io/main/images/fWeb.png">
 </p>
 
 ---
