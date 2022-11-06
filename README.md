@@ -4,9 +4,9 @@
 </p>
 
 ---
-#### ⭐ I love reading, programming and the economy.
-#### 📚 I'am constantly learning and studying.
-#### 📃 Visit my website to see more -> JeroDev.com
+### ⭐ I love reading, programming and the economy.
+### 📚 I'am constantly learning and studying.
+### 📃 Visit my website to see more -> JeroDev.com
 
 ---
 ### Sections:
