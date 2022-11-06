@@ -8,8 +8,6 @@
 #### 📚 I'am constantly learning and studying.
 #### 📃 Visit my website to see more -> JeroDev.com
 
-### <h2 align="center">¡Revisemos que hay!</h1>
-
 ---
 ### Sections:
 #### 🔹Intro: A introduction about my portafolio page.
@@ -21,12 +19,12 @@
 
 <p align="center">
    <a href="https://www.linkedin.com/in/jeronimo-ramirez-mejia/" target="blank" style='margin-right:4px'>
-    <img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="midudev" height="30px" width="30px" />
+    <img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="midudev" height="50px" width="50px" />
   </a>
    <a href="https://www.youtube.com/@TheHakoDrako" target="blank" style='margin-right:4px'>
-    <img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/youtube.svg" alt="midudev" height="30px" width="30px" />
+    <img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/youtube.svg" alt="midudev" height="50px" width="50px" />
   </a>
   <a href="https://www.instagram.com/jero.rm/" target="blank">
-    <img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="midu.dev" height="30px" width="30px" />
+    <img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="midu.dev" height="50px" width="50px" />
   </a>
 </p>
