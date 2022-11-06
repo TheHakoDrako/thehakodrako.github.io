@@ -1,7 +1,7 @@
-# <h1 align="center">Jeronimo Ramírez Mejía | Economist - Developer Bread</h1>
+# <h1 align="center">Jeronimo Ramírez Mejía | Economist - Developer</h1>
 
 <p align="center" >
-  <img width="600" heigth="600" src="https://github.com/TheHakoDrako/thehakodrako.github.io/blob/main/images/FondoWeb.PNG">
+  <img width="800" heigth="800" src="https://github.com/TheHakoDrako/thehakodrako.github.io/blob/main/images/fondWeb.png">
 </p>
 
 
@@ -22,5 +22,5 @@
 ---
 
 <p align="center" >
-  <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" href="https://www.linkedin.com/in/jeronimo-ramirez-mejia/" target="_blank"></a>
+  <img src="https://github.com/TheHakoDrako/thehakodrako.github.io/blob/main/images/linkedLog.png" href="https://www.linkedin.com/in/jeronimo-ramirez-mejia/" target=_blank>
 </p>
