@@ -1,6 +1,6 @@
 
 <p align="center" >
-  <img width="900" heigth="900" src="https://github.com/TheHakoDrako/thehakodrako.github.io/blob/main/images/titleWeb.png">
+  <img width="900" heigth="900" src="[![fWeb.png](https://i.postimg.cc/TPPNhJpL/fWeb.png)](https://postimg.cc/4YrQStvs)">
 </p>
 
 ---
@@ -19,6 +19,14 @@
 
 ---
 
-<p align="center" >
-  <img width="80" heigth="80" src="https://github.com/TheHakoDrako/thehakodrako.github.io/blob/main/images/linkedLog.png" href="https://www.linkedin.com/in/jeronimo-ramirez-mejia/" target=_blank>
+<p align="center">
+   <a href="https://www.linkedin.com/in/jeronimo-ramirez-mejia/" target="blank" style='margin-right:4px'>
+    <img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="midudev" height="30px" width="30px" />
+  </a>
+   <a href="https://www.youtube.com/@TheHakoDrako" target="blank" style='margin-right:4px'>
+    <img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/youtube.svg" alt="midudev" height="30px" width="30px" />
+  </a>
+  <a href="https://www.instagram.com/jero.rm/" target="blank">
+    <img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="midu.dev" height="30px" width="30px" />
+  </a>
 </p>
