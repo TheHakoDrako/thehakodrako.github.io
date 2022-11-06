@@ -1,7 +1,7 @@
 # <h1 align="center">Jeronimo Ramírez Mejía | Economist - Developer Bread</h1>
 
 <p align="center" >
-  <img width="600" heigth="600" src="https://github.com/TheHakoDrako/thehakodrako.github.io/tree/main/images/FondoWeb.png">
+  <img width="600" heigth="600" src="https://github.com/TheHakoDrako/thehakodrako.github.io/blob/main/images/FondoWeb.PNG">
 </p>
 
 
@@ -21,7 +21,6 @@
 
 ---
 
-<a align="center" href="https://www.linkedin.com/in/jeronimo-ramirez-mejia/" target="_blank">
 <p align="center" >
-  <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
+  <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" href="https://www.linkedin.com/in/jeronimo-ramirez-mejia/" target="_blank"></a>
 </p>
