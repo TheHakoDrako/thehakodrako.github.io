@@ -10,10 +10,10 @@
 
 ---
 ### Sections:
-#### 🔹Intro: A introduction about my portafolio page.
-#### 🔹Work: Space where I show my repertoires from github.
-#### 🔹About: A little bit me.
-#### 🔹Contact: You can contact me in this section (1 week of answers).
+##### 🔹Intro: A introduction about my portafolio page.
+##### 🔹Work: Space where I show my repertoires from github.
+##### 🔹About: A little bit me.
+##### 🔹Contact: You can contact me in this section (1 week of answers).
 
 ---
 
