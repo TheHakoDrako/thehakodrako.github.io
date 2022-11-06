@@ -1,9 +1,7 @@
-# <h1 align="center">Jeronimo Ramírez Mejía | Economist - Developer</h1>
 
 <p align="center" >
-  <img width="800" heigth="800" src="https://github.com/TheHakoDrako/thehakodrako.github.io/blob/main/images/fondWeb.png">
+  <img width="900" heigth="900" src="https://github.com/TheHakoDrako/thehakodrako.github.io/blob/main/images/fondWeb.png">
 </p>
-
 
 ---
 #### ⭐ I love reading, programming and the economy.
@@ -22,5 +20,5 @@
 ---
 
 <p align="center" >
-  <img src="https://github.com/TheHakoDrako/thehakodrako.github.io/blob/main/images/linkedLog.png" href="https://www.linkedin.com/in/jeronimo-ramirez-mejia/" target=_blank>
+  <img width="80" heigth="80" src="https://github.com/TheHakoDrako/thehakodrako.github.io/blob/main/images/linkedLog.png" href="https://www.linkedin.com/in/jeronimo-ramirez-mejia/" target=_blank>
 </p>
