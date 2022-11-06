@@ -4,11 +4,7 @@
 </p>
 
 ---
-#### ⭐ I love reading, programming and the economy.
-#### 📚 I'am constantly learning and studying.
-#### 📃 Visit my website to see more -> JeroDev.com
 
----
 ### Sections:
 #### 🔹Intro: A introduction about my portafolio page.
 #### 🔹Work: Space where I show my repertoires from github.
