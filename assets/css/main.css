@@ -699,9 +699,19 @@ input, select, textarea {
 			width: 100%;
 		}
 
-			.image.main img {
+			.image.main.intro img {
 				margin: auto;
-				width: 80%;
+				width: 70%;
+			}
+
+			.image.main.work img {
+				margin: auto;
+				width: 100%;
+			}
+
+			.image.main.about img {
+				margin: auto;
+				width: 100%;
 			}
 
 		@media screen and (max-width: 736px) {
