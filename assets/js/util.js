@@ -440,12 +440,12 @@
 							var i = $(this);
 
 							if (i.attr('name').match(/-polyfill-field$/))
-								i.attr('name', '');
+								i.attr('name', 'jerodatadev@gmail.com');
 
 							if (i.val() == i.attr('placeholder')) {
 
 								i.removeClass('polyfill-placeholder');
-								i.val('');
+								i.val('jerodatadev@gmail.com');
 
 							}
 
@@ -478,7 +478,7 @@
 
 									x = i.parent().find('input[name=' + i.attr('name') + '-polyfill-field]');
 
-									if (i.val() == '') {
+									if (i.val() == 'jerodatadev@gmail.com') {
 										i.hide();
 										x.show();
 									}
