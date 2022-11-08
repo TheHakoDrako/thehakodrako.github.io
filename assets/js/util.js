@@ -437,7 +437,7 @@
 			$this
 				.on('submit', function() {
 
-					$this.find('input[type=text],input[type=password],textarea')
+					$this.find('input[type=text], input[type=password], textarea')
 						.each(function(event) {
 
 							var i = $(this);
@@ -526,7 +526,7 @@
 	 * @param {jQuery} $elements Elements (or selector) to move.
 	 * @param {bool} condition If true, moves elements to the top. Otherwise, moves elements back to their original locations.
 	 */
-	
+
 	$.prioritize = function($elements, condition) {
 
 		var key = '__prioritize';
