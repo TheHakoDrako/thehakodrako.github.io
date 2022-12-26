@@ -2,16 +2,8 @@
     background-color: black;
 }
 
-/* Reglas de estilo para dispositivos móviles */
 body {
   font-size: 14px;
-}
-
-/* Sobrescribir las reglas de estilo para pantallas más grandes */
-@media (min-width: 768px) {
-  body {
-      font-size: 16px;
-  }
 }
 
 .is-preload {
@@ -109,3 +101,10 @@ body {
       transform: rotate(360deg);
     }
   }
+
+/* Sobrescribir las reglas de estilo para pantallas más grandes */
+@media (min-width: 768px) {
+  body {
+      font-size: 16px;
+  }
+}
