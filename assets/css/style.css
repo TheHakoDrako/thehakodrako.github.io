@@ -2,6 +2,18 @@
     background-color: black;
 }
 
+/* Reglas de estilo para dispositivos móviles */
+body {
+  font-size: 14px;
+}
+
+/* Sobrescribir las reglas de estilo para pantallas más grandes */
+@media (min-width: 768px) {
+  body {
+      font-size: 16px;
+  }
+}
+
 .is-preload {
     overflow: hidden;
 }
@@ -16,7 +28,7 @@
 .lds-roller {
     display: inline-block;
     position: relative;
-    width: 80px;
+    width: 50%; /* cambiar a un porcentaje del ancho del contenedor */
     height: 80px;
   }
   .lds-roller div {
