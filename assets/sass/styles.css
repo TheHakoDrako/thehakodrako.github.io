@@ -5,56 +5,8 @@
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
-}
-
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-  display: block;
-}
-
-body {
-  background: white;
-  line-height: 1;
-  -webkit-text-size-adjust: none;
-}
-
-ol, ul {
-  list-style: none;
-}
-
-blockquote, q {
-  quotes: none;
-}
-
-blockquote:before, blockquote:after, q:before, q:after {
-  content: "";
-  content: none;
-}
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-body {
-  -webkit-text-size-adjust: none;
-}
-
-mark {
-  background-color: transparent;
-  color: inherit;
-}
-
-input::-moz-focus-inner {
-  border: 0;
-  padding: 0;
-}
-
-input, select, textarea {
-  -moz-appearance: none;
-  -webkit-appearance: none;
-  -ms-appearance: none;
-  appearance: none;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Preloader */
@@ -295,6 +247,47 @@ h5 {
 
 h6 {
   font-size: 0.6rem;
+}
+
+.image.main.intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image.main.intro img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.transparent-window {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: calc(100% - 20px);
+  height: calc(100% - 20px);
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+.transparent-window .close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 30px;
+  height: 30px;
+  background: #ccc;
+  border: none;
+  border-radius: 50%;
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+}
+.transparent-window .close-button:hover {
+  background: #b3b3b3;
+}
+.transparent-window .close-button:active {
+  background: #e6e6e6;
 }
 
 @media screen and (max-width: 736px) {
