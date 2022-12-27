@@ -192,7 +192,8 @@ button:hover {
   font-family: sans-serif;
   text-align: center;
   width: 100%;
-  margin: 240px 0;
+  margin: 200px 0;
+  margin-left: auto;
 }
 
 /* LETRA */
@@ -418,7 +419,7 @@ h2 {
 }
 
 #modalContact {
-  max-width: 70ch;
+  max-width: 50ch;
 }
 
 #btnCerrarContact {
@@ -615,6 +616,15 @@ input[type=submit].primary, input[type=reset].primary, input[type=button].primar
   font-weight: 600;
 }
 
+form > :last-child {
+  margin-bottom: 0;
+}
+
+ul {
+  margin: 0 0 2rem 0;
+  padding-left: 1em;
+}
+
 ul.actions {
   display: -moz-flex;
   display: -webkit-flex;
@@ -622,18 +632,8 @@ ul.actions {
   display: flex;
   cursor: default;
   list-style: none;
-  margin-left: 8rem;
+  margin-left: auto;
   padding-left: 0;
-}
-
-form > :last-child {
-  margin-bottom: 0;
-}
-
-ul {
-  list-style: disc;
-  margin: 0 0 2rem 0;
-  padding-left: 1em;
 }
 
 ul.icons {
