@@ -144,16 +144,47 @@ body {
   url('/thehakodrako.github.io/images/fond.jpg');
   background-size: cover;
   text-align: center;
-}
 
+  /* Estilos para pantallas de móvil */
+  @media only screen and (max-width: 600px) {
+    font-size: 14px;
+  }
+
+  /* Estilos para pantallas de escritorio de tamaño mediano */
+  @media only screen and (min-width: 601px) and (max-width: 1280px) {
+    font-size: 16px;
+  }
+
+  /* Estilos para pantallas de escritorio grandes */
+  @media only screen and (min-width: 1281px) {
+    font-size: 18px;
+  }
+}
 
 main {
   margin: 0;
   text-align: center;
   align-items: center;
   justify-content: center;
-}
 
+  /* Estilos para pantallas de móvil */
+  @media only screen and (max-width: 600px) {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  /* Estilos para pantallas de escritorio de tamaño mediano */
+  @media only screen and (min-width: 601px) and (max-width: 1280px) {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  /* Estilos para pantallas de escritorio grandes */
+  @media only screen and (min-width: 1281px) {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
 
 button{
   text-align: center;
@@ -285,7 +316,7 @@ h2 {
 }
 
 .full-image {
-  width: 100%;
+  width: 90%;
   margin-top: 10px;
 }
 
@@ -633,3 +664,20 @@ ul.icons li a {
   font-family: 'Font Awesome 5 Free';
   font-weight: 400;
 }
+
+/* RESPONSIVE DESIGN */
+
+@media only screen and (max-width: 600px) {
+  /* Estilos para pantallas de móvil */
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1280px) {
+  /* Estilos para pantallas de escritorio de tamaño mediano */
+}
+
+@media only screen and (min-width: 1281px) {
+  /* Estilos para pantallas de escritorio grandes */
+}
+
+
+
