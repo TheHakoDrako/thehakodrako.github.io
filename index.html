@@ -8,7 +8,7 @@
 <head>
 	<title>Estoy en Mantenimiento</title>
 	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 	<link rel="stylesheet" type="text/css" href="assets/sass/styles.css">
 </head>
 
@@ -32,126 +32,156 @@
 		<header id="header">
 			<div class="content">
 				<div class="inner">
-					<h1>Jeronimo Ramirez Mejia</h1>
-					<p>Economist And Developer</p>
+					<h1 class="text-animation">Jeronimo Ramirez Mejia</h1>
+					<p class="text-animation">Economist And Developer</p>
 				</div>
 			</div>
-			<nav>
-				<ul>
-					<li id="intro-button"><a href="#intro">Intro</a></li>
-					<li id="work-button"><a href="#work">Work</a></li>
-					<li id="about-button"><a href="#about">About</a></li>
-					<li id="contact-button"><a href="#contact">Contact</a></li>
-					<!--<li><a href="#elements">Elements</a></li>-->
-				</ul>
-			</nav>
 		</header>
 
 		<!-- Main -->
-		<div id="main">
+		<div id="main" class="text-animation">
 
 			<!-- Intro -->
-			<article id="intro-content">
-				<h2 class="major">Intro</h2>
-				<span class="image main intro"><img src="images/me.png" alt="JeroRm" /></span>
-				<p>Economist and developer. Throughout my life, I have been a great reader, a self-taught, looking to
-					improve in these two areas. I finished my studies in economics at the University of Quindio and my
-					studies as a developer are constant, that is, I strive every day to improve and to carry out
-					projects, which you can see in my section of: <a href="#work">awesome work</a>.</p>
-				<p>This portfolio seeks to show not only my repositories, work and experience, but also to show who I am
-					and what my goals in life are.
-					I am open to create new projects, as well as to get a job, since I am looking for experience and to
-					keep growing professionally and, on the other hand, to continue improving my English.</p>
-			</article>
+			<button id="btnIntro" class="botonEfecto">Intro</button>
+
+			<dialog id="modalIntro" class="card">
+				<article id="intro-content">
+					<h2 class="major">Intro</h2>
+					<span class="image main intro"><img src="images/me.png" alt="JeroRm" class="small-image" /></span>
+					<p>Economist and developer. Throughout my life, I have been a great reader, a self-taught, looking
+						to
+						improve in these two areas. I finished my studies in economics at the University of Quindio and
+						my
+						studies as a developer are constant, that is, I strive every day to improve and to carry out
+						projects, which you can see in my section of: <a class="lineText">awesome work</a>.</p>
+					<p>This portfolio seeks to show not only my repositories, work and experience, but also to show who
+						I am
+						and what my goals in life are.
+						I am open to create new projects, as well as to get a job, since I am looking for experience and
+						to
+						keep growing professionally and, on the other hand, to continue improving my English.</p>
+				</article>
+				<button id="btnCerrarIntro">X</button>
+			</dialog>
 
 			<!-- Work -->
-			<article id="work-content">
-				<h2 class="major">Work</h2>
-				<span class="image main work"><img src="images/gitProf.png" alt="Tecnologys" /></span>
-				<p>In the search for experience, I have made some repositories, making algorithms in Java, Python and
-					with R, which have led me to generate more knowledge, likewise, the page you are reading was built
-					by myself, clearly, analyzing how some processes work in some classes I took at Platzi, Udemy, IBM,
-					and other online courses, from which I have learned a lot.</p>
-				<p>My <a href="https://github.com/TheHakoDrako" target="_blank">GitHub</a> has several repositories and
-					shows the technologies of which I am aware. Every month, I try to make a new project and upload it
-					to the platform, in order to have a wider repertoire of those projects I have done and cloned, to
-					gain experience, and learn how to use Git.</p>
-			</article>
+			<button id="btnWork" class="botonEfecto">Work</button>
+
+			<dialog id="modalWork" class="card">
+				<article id="work-content">
+					<h2 class="major">Work</h2>
+					<span class="image main work"><img src="images/gitProf.png" alt="Tecnologys"
+							class="full-image" /></span>
+					<p>In the search for experience, I have made some repositories, making algorithms in Java, Python
+						and
+						with R, which have led me to generate more knowledge, likewise, the page you are reading was
+						built
+						by myself, clearly, analyzing how some processes work in some classes I took at Platzi, Udemy,
+						IBM,
+						and other online courses, from which I have learned a lot.</p>
+					<p>My <a href="https://github.com/TheHakoDrako" target="_blank" class="lineText">GitHub</a> has
+						several repositories
+						and
+						shows the technologies of which I am aware. Every month, I try to make a new project and upload
+						it
+						to the platform, in order to have a wider repertoire of those projects I have done and cloned,
+						to
+						gain experience, and learn how to use Git.</p>
+				</article>
+				<button id="btnCerrarWork">X</button>
+			</dialog>
 
 			<!-- About -->
-			<article id="about-content">
-				<h2 class="major">About</h2>
-				<span class="image main about"><img src="images/about.png" alt="" /></span>
-				<p>Jeronimo was born in Colombia in 2001, he loves the internet, exercise, and reading. He is a
-					responsible person, intellectual, and eager to learn new things every day. He has won awards in
-					sports, and always keeps doing studies on the internet and face-to-face studies of literature,
-					culture, economics, and programming. Jero loves programming and economics, and since his 18 years,
-					he has focused on improving his skills and knowledge regarding the Frontend because he is creative,
-					and Backend, because he loves data. His taste in data and economic analysis is born thanks to
-					econometrics, Jero loves econometrics, therefore, his strengths are Python and Rstudio, likewise, he
-					loves Java, and the management of interfaces that he learned with HTML, CSS, SASS, and Javascript
-					along with NodeJs. He likes the console, hence, he has developed skills with git and command
-					management.</p>
-				<p>Jero in his free time loves to read literature, economics and, technology worldwide. He is learning
-					and improving his English. He exercises and loves to speak or lead, since he has always led groups,
-					people, and spaces since he was a child. Jero has <a
-						href="https://www.linkedin.com/in/jeronimo-ramirez-mejia/" target="_blank">Linkedin</a> and has
-					all his work experience there.</p>
-			</article>
+			<button id="btnAbout" class="botonEfecto">About</button>
+
+			<dialog id="modalAbout" class="card">
+				<article id="about-content">
+					<h2 class="major">About</h2>
+					<span class="image main about"><img src="images/about.png" alt="About" class="full-image" /></span>
+					<p>Jeronimo was born in Colombia in 2001, he loves the internet, exercise, and reading. He is a
+						responsible person, intellectual, and eager to learn new things every day. He has won awards in
+						sports, and always keeps doing studies on the internet and face-to-face studies of literature,
+						culture, economics, and programming. Jero loves programming and economics, and since his 18
+						years,
+						he has focused on improving his skills and knowledge regarding the Frontend because he is
+						creative,
+						and Backend, because he loves data. His taste in data and economic analysis is born thanks to
+						econometrics, Jero loves econometrics, therefore, his strengths are Python and Rstudio,
+						likewise, he
+						loves Java, and the management of interfaces that he learned with HTML, CSS, SASS, and
+						Javascript
+						along with NodeJs. He likes the console, hence, he has developed skills with git and command
+						management.</p>
+					<p>Jero in his free time loves to read literature, economics and, technology worldwide. He is
+						learning
+						and improving his English. He exercises and loves to speak or lead, since he has always led
+						groups,
+						people, and spaces since he was a child. Jero has <a
+							href="https://www.linkedin.com/in/jeronimo-ramirez-mejia/" target="_blank"
+							class="lineText">Linkedin</a> and
+						has
+						all his work experience there.</p>
+				</article>
+				<button id="btnCerrarAbout">X</button>
+			</dialog>
 
 			<!-- Contact -->
-			<article id="contact-content">
-				<h2 class="major">Contact</h2>
-				<form id="form">
-					<div class="fields">
-						<div class="field half">
-							<label for="name">Name</label>
-							<input type="text" name="name" id="name" required />
+			<button id="btnContact" class="botonEfecto">Contact</button>
+
+			<dialog id="modalContact" class="card">
+				<article id="contact-content">
+					<h2 class="major">Contact</h2>
+					<form id="form">
+						<div class="fields">
+							<div class="field half">
+								<label for="name">Name</label>
+								<input type="text" name="name" id="name" required />
+							</div>
+							<div class="field half">
+								<label for="email">Email</label>
+								<input type="email" name="email" id="email" required />
+							</div>
+							<div class="field">
+								<label for="message">Message</label>
+								<textarea type="text" name="message" id="message" rows="4" required></textarea>
+							</div>
 						</div>
-						<div class="field half">
-							<label for="email">Email</label>
-							<input type="email" name="email" id="email" required />
-						</div>
-						<div class="field">
-							<label for="message">Message</label>
-							<textarea type="text" name="message" id="message" rows="4" required></textarea>
-						</div>
-					</div>
-					<ul class="actions">
-						<li><input name="button" id="button" type="submit" value="Send Email" class="primary" /></li>
-						<li><input type="reset" value="Reset" /></li>
+						<ul class="actions">
+							<li><input name="button" id="button" type="submit" value="Send Email" class="primary" />
+							</li>
+							<li><input type="reset" value="Reset" /></li>
+						</ul>
+						<script type="text/javascript"
+							src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+						<script type="text/javascript"> emailjs.init('hYlwyEv-6d2QR3IXZ') </script>
+					</form>
+					<ul class="icons">
+						<li><a href="https://twitter.com/JeroRmSoyYo" target="_blank"
+								class="icon brands fa-twitter"><span class="label"></span></a></li>
+						<li><a href="https://www.instagram.com/jero.rm/" target="_blank"
+								class="icon brands fa-instagram"><span class="label"></span></a></li>
+						<li><a href="https://github.com/TheHakoDrako" target="_blank"
+								class="icon brands fa-github"><span class="label"></span></a></li>
 					</ul>
-					<script type="text/javascript"
-						src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-					<script type="text/javascript"> emailjs.init('hYlwyEv-6d2QR3IXZ') </script>
-				</form>
-				<ul class="icons">
-					<li><a href="https://twitter.com/JeroRmSoyYo" target="_blank" class="icon brands fa-twitter"><span
-								class="label">Twitter</span></a></li>
-					<li><a href="https://www.instagram.com/jero.rm/" target="_blank"
-							class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-					<li><a href="https://github.com/TheHakoDrako" target="_blank" class="icon brands fa-github"><span
-								class="label">GitHub</span></a></li>
-				</ul>
-			</article>
+				</article>
+				<button id="btnCerrarContact">X</button>
+			</dialog>
 
 		</div>
 
 		<!-- Footer -->
-		<footer id="footer">
-			<p class="copyright">&copy; Design: <a href="https://www.instagram.com/jero.rm/"
-					target="_blank">@jero.rm</a>.</p>
+		<footer id="footer" class="text-animation">
+			<p class="copyright">&copy; Design: <a href="https://www.instagram.com/jero.rm/" target="_blank"
+					class="lineText">@jero.rm</a></p>
 		</footer>
 
 	</div>
 
-	<!-- BG -->
-	<div id="fond"></div>
-
 	<!-- Scripts -->
 	<script src="assets/js/scriptPreload.js"></script>
 	<script src="assets/js/contact.js"></script>
-	<script src="assets/js/menuSelect.js"></script>	
+	<script src="assets/js/menuSelect.js"></script>
+	<script src="https://kit.fontawesome.com/6ba3e1e052.js" crossorigin="anonymous"></script>
 
 </body>
 

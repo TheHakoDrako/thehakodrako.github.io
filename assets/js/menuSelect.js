@@ -1,38 +1,59 @@
-document.getElementById("intro-content").style.display = "none";
-document.getElementById("work-content").style.display = "none";
-document.getElementById("about-content").style.display = "none";
-document.getElementById("contact-content").style.display = "none";
+/* INTRO */
+
+const btnAbrirModalIntro = document.querySelector('#btnIntro');
+const btnCerrarModalIntro = document.querySelector('#btnCerrarIntro');
+const modalIntro = document.querySelector('#modalIntro');
 
 
-document.getElementById("intro-button").addEventListener("click", function () {
-    // Muestra el contenido de Intro al hacer clic en el botón
-    document.getElementById("intro-content").style.display = "block";
-    // Oculta los demás contenidos
-    document.getElementById("work-content").style.display = "none";
-    document.getElementById("about-content").style.display = "none";
-    document.getElementById("contact-content").style.display = "none";
-});
-document.getElementById("work-button").addEventListener("click", function () {
-    // Muestra el contenido de Work al hacer clic en el botón
-    document.getElementById("work-content").style.display = "block";
-    // Oculta los demás contenidos
-    document.getElementById("intro-content").style.display = "none";
-    document.getElementById("about-content").style.display = "none";
-    document.getElementById("contact-content").style.display = "none";
-});
-document.getElementById("about-button").addEventListener("click", function () {
-    // Muestra el contenido de About al hacer clic en el botón
-    document.getElementById("about-content").style.display = "block";
-    // Oculta los demás contenidos
-    document.getElementById("intro-content").style.display = "none";
-    document.getElementById("work-content").style.display = "none";
-    document.getElementById("contact-content").style.display = "none";
-});
-document.getElementById("contact-button").addEventListener("click", function () {
-    // Muestra el contenido de About al hacer clic en el botón
-    document.getElementById("contact-content").style.display = "block";
-    // Oculta los demás contenidos
-    document.getElementById("intro-content").style.display = "none";
-    document.getElementById("work-content").style.display = "none";
-    document.getElementById("about-content").style.display = "none";
-});
+btnAbrirModalIntro.addEventListener('click',()=>{
+    modalIntro.showModal();
+})
+
+btnCerrarModalIntro.addEventListener('click',()=>{
+    modalIntro.close();
+})
+
+/* WORK */
+
+const btnAbrirModalWork = document.querySelector('#btnWork');
+const btnCerrarModalWork = document.querySelector('#btnCerrarWork');
+const modalWork = document.querySelector('#modalWork');
+
+
+btnAbrirModalWork.addEventListener('click',()=>{
+    modalWork.showModal();
+})
+
+btnCerrarModalWork.addEventListener('click',()=>{
+    modalWork.close();
+})
+
+/* ABOUT */
+
+const btnAbrirModalAbout = document.querySelector('#btnAbout');
+const btnCerrarModalAbout = document.querySelector('#btnCerrarAbout');
+const modalAbout = document.querySelector('#modalAbout');
+
+
+btnAbrirModalAbout.addEventListener('click',()=>{
+    modalAbout.showModal();
+})
+
+btnCerrarModalAbout.addEventListener('click',()=>{
+    modalAbout.close();
+})
+
+/* CONTACT */
+
+const btnAbrirContact = document.querySelector('#btnContact');
+const btnCerrarContact = document.querySelector('#btnCerrarContact');
+const modalContact = document.querySelector('#modalContact');
+
+
+btnAbrirContact.addEventListener('click',()=>{
+    modalContact.showModal();
+})
+
+btnCerrarContact.addEventListener('click',()=>{
+    modalContact.close();
+})
