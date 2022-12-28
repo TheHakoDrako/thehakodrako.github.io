@@ -148,6 +148,32 @@ body {
   /* Estilos para pantallas de móvil */
   @media only screen and (max-width: 600px) {
     font-size: 14px;
+    width: 90%;
+    margin: 0 auto;
+    .btnIntro {
+      margin: auto;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+    }
+    .btnWork {
+      margin: auto;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+    }
+    .btnAbout {
+      margin: auto;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+    }
+    .btnContact {
+      width: auto;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+    }
   }
 
   /* Estilos para pantallas de escritorio de tamaño mediano */
@@ -171,6 +197,30 @@ main {
   @media only screen and (max-width: 600px) {
     width: 90%;
     margin: 0 auto;
+    .btnIntro {
+      margin: auto;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+    }
+    .btnWork {
+      margin: auto;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+    }
+    .btnAbout {
+      margin: auto;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+    }
+    .btnContact {
+      width: auto;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+    }
   }
 
   /* Estilos para pantallas de escritorio de tamaño mediano */
