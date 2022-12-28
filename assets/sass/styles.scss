@@ -537,7 +537,7 @@ textarea {
 }
 
 form {
-  margin: 12px 5px 2rem 0;
+  margin: 12px 0px -1rem 0;
 }
 
 form > .fields {
@@ -568,6 +568,10 @@ form > .fields > .field {
   flex-shrink: 0;
   padding: 2rem 0 4px 1.5rem;
   width: calc(100% - 2.5rem);
+}
+
+.g-recaptcha {
+  margin: auto;
 }
 
 label {
@@ -651,8 +655,7 @@ form > :last-child {
 }
 
 ul {
-  margin: 0 0 2rem 0;
-  padding-left: 1em;
+  margin: 0 0 0rem 0;
 }
 
 ul.actions {
