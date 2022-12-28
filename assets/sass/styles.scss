@@ -237,13 +237,18 @@ main {
 }
 
 button{
-  text-align: center;
   background-color: rgba(0, 0, 0, 0.2);
   padding: 8px 18px;;
   border-radius: 10px;
   color: white;
   margin-left: 16px;
   border: transparent;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  margin: auto;
 }
 
 button:hover {
