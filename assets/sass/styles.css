@@ -463,8 +463,8 @@ h2 {
 }
 #btnCerrarIntro {
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 10px;
+  right: 10px;
 }
 
 #modalWork::backdrop {
@@ -484,8 +484,8 @@ h2 {
 }
 #btnCerrarWork {
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 10px;
+  right: 10px;
 }
 
 #modalAbout::backdrop {
@@ -505,8 +505,8 @@ h2 {
 }
 #btnCerrarAbout {
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 10px;
+  right: 10px;
 }
 
 #modalContact::backdrop {
@@ -519,8 +519,8 @@ h2 {
 
 #btnCerrarContact {
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 10px;
+  right: 10px;
 }
 
 .card {
