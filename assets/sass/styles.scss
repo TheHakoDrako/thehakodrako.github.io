@@ -655,7 +655,7 @@ form > :last-child {
 }
 
 ul {
-  margin: 0 0 0rem 0;
+  margin: 5px 0px 1rem 0px;
 }
 
 ul.actions {
@@ -673,6 +673,7 @@ ul.icons {
   cursor: default;
   list-style: none;
   padding-left: 0;
+  padding-top: 4px;
 }
 
 li {
