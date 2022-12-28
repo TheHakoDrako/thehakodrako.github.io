@@ -41,7 +41,7 @@ document.getElementById('form')
 
 /* CAPTCHA */
 
-const SECRET_KEY = '6Le4K7IjAAAAAKhXutobLAVNkajyxdZcD7l_4Zez';
+const SECRET_KEY = 'key';
 
 const form = document.getElementById('form');
 const submitButton = form.querySelector('input[type="submit"]');
@@ -51,7 +51,7 @@ submitButton.disabled = true;
 form.addEventListener('submit', event => {
   event.preventDefault();
 
-  grecaptcha.execute('6Le4K7IjAAAAAKhXutobLAVNkajyxdZcD7l_4Zez', { action: 'submit' }).then(function (token) {
+  grecaptcha.execute('key', { action: 'submit' }).then(function (token) {
     const response = token;
 
     const verificationUrl = `https://www.google.com/recaptcha/api/siteverify?secret=${SECRET_KEY}&response=${response}`;
