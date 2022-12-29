@@ -542,7 +542,7 @@ textarea {
 }
 
 form {
-  margin: 12px 0px -1rem 0;
+  margin: 0px 0px -1rem 0;
 }
 
 form > .fields {
@@ -678,7 +678,8 @@ ul.icons {
   cursor: default;
   list-style: none;
   padding-left: 0;
-  padding-top: 4px;
+  padding-top: 14px;
+  display: block;
 }
 
 li {
