@@ -8,6 +8,7 @@
   background-color: black;
   height: 100vh;
   width: auto;
+  margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
