@@ -2,13 +2,13 @@
 /* Preloader */
 .isPreload {
   overflow: hidden;
+  margin: auto;
 }
 
 .preloadCentrado {
   background-color: black;
-  height: 100vh;
-  width: auto;
-  margin: 0;
+  width: 150vh;
+  height: 95vh;
   display: flex;
   justify-content: center;
   align-items: center;
