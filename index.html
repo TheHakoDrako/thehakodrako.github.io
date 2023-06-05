@@ -614,7 +614,11 @@
 
   <!-- Template Main JS File -->
   <div id="root"></div>
-  <script type="module" src="' + import.meta.env.BASE_URL + 'src/main.jsx"></script>
+  <script type="module">
+    const script = document.createElement('script');
+    script.src = `${import.meta.env.BASE_URL}src/main.jsx`;
+    document.body.appendChild(script);
+  </script>
 
 </body>
 
