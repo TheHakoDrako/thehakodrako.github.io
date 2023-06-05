@@ -758,6 +758,7 @@ section {
   text-align: start;
   width: 450.328px;
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  tap-highlight-color: rgba(255, 255, 255, 0);
   position: relative;
   margin: 0 auto;
 }
@@ -779,7 +780,6 @@ section {
   height: 100%;
   position: absolute;
   bottom: 0;
-  text-align: center;
   opacity: 0;
   color: #fff;
   background: rgba(0, 0, 0, 0.9);
