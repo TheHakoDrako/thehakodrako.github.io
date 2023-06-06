@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import './App.css';
 import AOS from 'aos';
 import Typed from 'typed.js';
@@ -125,12 +126,17 @@ function App() {
 
   /** Preloader **/
 
-  window.addEventListener('load', () => {
+  useEffect(() => {
     let preloader = document.querySelector('#preloader');
     if (preloader) {
-      preloader.remove();
+      setTimeout(() => {
+        preloader.classList.add('preloader-fade');
+        setTimeout(() => {
+          preloader.remove();
+        }, 500); //
+      }, 1000); //
     }
-  });
+  }, []);
 
   /** Hero type effect **/
 
