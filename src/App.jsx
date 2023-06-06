@@ -125,14 +125,12 @@ function App() {
 
   /** Preloader **/
 
-  let preloader = select('#preloader');
-  if (preloader) {
-    window.addEventListener('load', () => {
-      setTimeout(() => {
-        preloader.remove();
-      });
-    });
-  }
+  window.addEventListener('load', () => {
+    let preloader = document.querySelector('#preloader');
+    if (preloader) {
+      preloader.remove();
+    }
+  });
 
   /** Hero type effect **/
 
