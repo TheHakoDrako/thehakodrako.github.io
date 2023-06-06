@@ -6,9 +6,9 @@ import GLightbox from 'glightbox';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'glightbox/dist/css/glightbox.min.css';
 import 'aos/dist/aos.css';
-import './assets/vendor/waypoints/noframework.waypoints.js';
-import './assets/vendor/swiper/swiper-bundle.min.css';
-import './assets/vendor/swiper/swiper-bundle.min.js';
+import '/assets/vendor/waypoints/noframework.waypoints.js';
+import '/assets/vendor/swiper/swiper-bundle.min.css';
+import '/assets/vendor/swiper/swiper-bundle.min.js';
 
 const App = () => {
   useEffect(() => {
