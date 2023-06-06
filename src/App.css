@@ -2,7 +2,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
-  background-image: url("../src/assets/img/starsFond.jpg");
+  background-image: url("./assets/img/starsFond.jpg");
   background-size: contain;
 }
 
