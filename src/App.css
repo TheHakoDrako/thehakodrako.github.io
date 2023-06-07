@@ -242,6 +242,7 @@ p {
   cursor: pointer;
   border-radius: 50px;
   padding: 5px;
+  color: darkgray;
 }
 
 .mobile-nav-toggle i {
