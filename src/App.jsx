@@ -9,6 +9,7 @@ import AOS from 'aos';
 import GLightbox from 'glightbox';
 import Swiper from 'swiper/swiper-bundle.esm.js';
 import './assets/vendor/waypoints/noframework.waypoints.js';
+import emailjs from '@emailjs/browser';
 
 const App = () => {
   useEffect(() => {
@@ -268,7 +269,86 @@ const App = () => {
         mirror: false,
       });
     });
+
+    /**
+     * Contact (form)
+     */
+    const contactForm = select('#contact-form');
+    const submitButton = select('#contact-form button[type="submit"]');
+    const formSubmit = (event) => {
+      event.preventDefault();
+      const nameInput = select('#name');
+      const emailInput = select('#email');
+      const subjectInput = select('#subject');
+      const messageInput = select('#message');
+
+      // Validar que todos los campos estén completos
+      if (nameInput.value === '' || emailInput.value === '' || subjectInput.value === '' || messageInput.value === '') {
+        alert('Please fill in all fields');
+        return;
+      }
+
+      // Obtener el valor del reCAPTCHA
+      const recaptchaValue = grecaptcha.getResponse();
+
+      // Validar el reCAPTCHA
+      if (recaptchaValue === '') {
+        const errorMessage = select('.error-message');
+        errorMessage.style.display = 'block';
+        errorMessage.textContent = 'Please complete the captcha.';
+        return;
+      } else {
+        const errorMessage = select('.error-message');
+        errorMessage.style.display = 'none';
+        errorMessage.textContent = '';
+      }
+
+      // Desactivar el botón de enviar
+      submitButton.disabled = true;
+
+      // Enviar el formulario utilizando EmailJS
+      const templateParams = {
+        name: nameInput.value,
+        email: emailInput.value,
+        subject: subjectInput.value,
+        message: messageInput.value,
+      };
+
+      emailjs.send('service_ykkkueg', 'template_7c7qrra', templateParams, 'hYlwyEv-6d2QR3IXZ')
+        .then(() => {
+          // Limpiar los campos del formulario después de enviarlo
+          nameInput.value = '';
+          emailInput.value = '';
+          subjectInput.value = '';
+          messageInput.value = '';
+          grecaptcha.reset();
+
+          // Mostrar mensaje de éxito
+          const successMessage = select('.sent-message');
+          successMessage.style.display = 'block';
+          setTimeout(() => {
+            successMessage.style.display = 'none';
+          }, 3000);
+
+          // Activar el botón de enviar nuevamente
+          submitButton.disabled = false;
+        })
+        .catch((error) => {
+          console.error('Error sending email:', error);
+          // Mostrar mensaje de error
+          const errorMessage = select('.error-message');
+          errorMessage.style.display = 'block';
+          errorMessage.textContent = 'Error while sending..';
+
+          // Activar el botón de enviar nuevamente
+          submitButton.disabled = false;
+        });
+    };
+
+    if (contactForm) {
+      contactForm.addEventListener('submit', formSubmit);
+    }
   }, []);
-};
+}
 
 export default App;

@@ -358,6 +358,10 @@ section {
   padding-bottom: 80px;
 }
 
+.section-title.contact {
+  padding-bottom: 30px;
+}
+
 .section-title h2 {
   font-size: 32px;
   font-weight: bold;
@@ -1107,7 +1111,7 @@ section {
 }
 
 .contact .php-email-form .form-group {
-  padding-bottom: 8px;
+  padding-bottom: 2px;
 }
 
 .contact .php-email-form .error-message {
@@ -1167,6 +1171,11 @@ section {
 .contact .php-email-form textarea {
   padding: 10px 12px;
   color: white;
+}
+
+.contact .contact-recaptcha {
+  display: -webkit-inline-box;
+  margin-top: -10px;
 }
 
 .contact .php-email-form button[type=submit] {
