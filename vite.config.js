@@ -8,8 +8,8 @@ export default defineConfig({
   server: {
     https: {
       key: fs.readFileSync('./.cert/private.key'),
-      cert: fs.readFileSync('./.cert/certificate.pem'),
-      ca: fs.readFileSync('./.cert/ca_bundle.pem')
+      cert: fs.readFileSync('./.cert/certificate.crt'),
+      ca: fs.readFileSync('./.cert/ca_bundle.crt')
     }
   }
 });
