@@ -25,7 +25,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: https://jerodev.work.gd/
+      url: ${{ https://jerodev.work.gd/ }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
