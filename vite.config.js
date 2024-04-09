@@ -7,9 +7,9 @@ export default defineConfig({
   base: 'https://jerodev.work.gd/',
   server: {
     https: {
-      key: fs.readFileSync('./.cert/private.key'),
-      cert: fs.readFileSync('./.cert/certificate.crt'),
-      ca: fs.readFileSync('./.cert/ca_bundle.crt')
+      key: fs.readFileSync('./.cert/jerodev.work.gd.key'),
+      cert: fs.readFileSync('./.cert/jerodev.work.gd.cer'),
+      ca: fs.readFileSync('./.cert/ca.cer')
     }
   }
 });
